@@ -1,13 +1,11 @@
 import React from "react";
+import Layout from "./components/Layout";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import SideBarLeft from "./components/SideBarLeft";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <SideBarLeft />
+      <Layout />
     </div>
   );
 }
