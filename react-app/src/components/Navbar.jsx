@@ -17,7 +17,7 @@ const Search = styled("div")({
   backgroundColor: "#f5f5f5",
   padding: "4px 8px",
   borderRadius: "4px",
-  width: "200px",
+  width: "400px",
 });
 
 const Navbar = () => {
@@ -38,7 +38,9 @@ const Navbar = () => {
           <IconButton color="inherit">
             <MenuIcon />
           </IconButton>
-          <Typography variant="body1">Subscriptions</Typography>
+          <Typography variant="body1" padding={2}>
+            Subscriptions
+          </Typography>
         </Box>
 
         {/* Search Box */}
@@ -50,7 +52,10 @@ const Navbar = () => {
         {/* Create Button */}
         <Button
           variant="contained"
-          sx={{ backgroundColor: "#4A148C", fontWeight: "bold" }}
+          sx={{
+            backgroundColor: "#b4cfed",
+            fontWeight: "bold",
+          }}
         >
           Create
         </Button>
